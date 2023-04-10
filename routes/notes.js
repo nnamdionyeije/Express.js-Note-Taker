@@ -6,10 +6,12 @@ const {
     writeToFile,
 } = require('../helpers/fsUtils');
   
+//handles API calls for the full list of notes
 notes.get('/', (req, res) => {
     readFromFile('./db/db.json').then((data) => res.json(JSON.parse(data)));
 });
 
+//handles API calls to add to the list of notes
 notes.post('/', (req, res) => {
     console.log(req.body);
 
@@ -29,6 +31,7 @@ notes.post('/', (req, res) => {
     }
 });
 
+//Handles calls to delete from the list by a specified ID
 notes.delete('/:id', (req, res) =>{
     const noteId = req.params.id;
     readFromFile('./db/db.json')
