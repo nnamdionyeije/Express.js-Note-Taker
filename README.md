@@ -6,7 +6,7 @@
 
 ## Table of Contents
 
-- [Screenshots](#Screenshots)
+- [Screenshots](#screenshots)
 
 - [Installation](#installation)
 
@@ -16,13 +16,11 @@
 
 - [Contributing](#contributing)
 
-- [Tests](#tests)
-
 - [Questions](#questions)
 
 ## Screenshots
 
-![A screenshot of the ]()
+![A screenshot of the note taking applicaiton](./assets\images\note-taker-screenshot.png)
 
 ## Installation
 
@@ -30,15 +28,15 @@ To install the necessary dependencies, run 'npm i' in the terminal.
 
 ## Usage
 
+Enter in a note title and note text then press the save icon in order to preserve your note. Click on one of the notes in the left hand column to view it again, and press the plus symbol to add another note.
+
 ## License
 
 The license being used for this application is the MIT license.
 
 ## Contributing
 
-fsUtils.js and clog.js were taken from the Module 28 student mini project
-
-## Tests
+fsUtils.js, clog.js, and other sections of code were taken from the Module 28 student mini project.
 
 ## Questions
 
